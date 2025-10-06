@@ -1,0 +1,294 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="hero-title">Start Your Medical Journey Abroad with Confidence</h1>
+                <p class="hero-subtitle">Expert counseling, documentation support, visa guidance & scholarship benefits – all under one roof</p>
+                <div class="scholarship-badge">
+                    <i class="fas fa-award me-2"></i>₹1,00,000 Scholarship Benefit
+                </div>
+                <div class="mt-4">
+                    <a href="{% url 'contact' %}" class="btn btn-primary-custom me-3">
+                        <i class="fas fa-phone me-2"></i>Book Free Counselling
+                    </a>
+                    <a href="{% url 'destinations' %}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-globe me-2"></i>Explore Destinations
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Why Choose Hind Guru Academy?</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Your Trusted Partner for MBBS Abroad Admissions</p>
+        
+        <div class="row g-4 mt-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Direct University Coordination</h4>
+                    <p>No middlemen, no confusion. We work directly with universities for transparent admissions.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4>₹1,00,000 Scholarship</h4>
+                    <p>Every student gets a guaranteed scholarship benefit included in our service package.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4>NMC Recognized Universities</h4>
+                    <p>Admission only in WHO & NMC-recognized medical universities worldwide.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4>Complete Documentation</h4>
+                    <p>End-to-end support for admission letters, visa, and all required paperwork.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <h4>Visa & Travel Support</h4>
+                    <p>Expert guidance for visa applications, embassy support, and travel arrangements.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4>24/7 Post-Arrival Support</h4>
+                    <p>Airport pickup, accommodation assistance, and emergency support abroad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in">
+                <div class="stat-box">
+                    <span class="stat-number" data-count="500">0</span>
+                    <span class="stat-label">Students Placed</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="stat-box">
+                    <span class="stat-number" data-count="50">0</span>
+                    <span class="stat-label">Partner Universities</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-box">
+                    <span class="stat-number" data-count="10">0</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-box">
+                    <span class="stat-number" data-count="98">0</span>
+                    <span class="stat-label">Success Rate %</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding bg-light">
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right">
+                <img src="/static/images/medical_students_stu_41c1d982.jpg" alt="Medical Students Studying" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <h2 class="section-title text-start">Transform Your Dreams into Reality</h2>
+                <p class="lead">Join thousands of successful students who achieved their MBBS dreams with Hind Guru Academy</p>
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>500+</strong> Students Successfully Placed</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>50+</strong> Partner Universities</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>10</strong> Countries</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>98%</strong> Success Rate</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Popular Study Destinations</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Choose from Top Medical Universities Across the Globe</p>
+        
+        <div class="row g-4 mt-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="country-card">
+                    <div class="country-header">
+                        <span class="country-flag">🇧🇩</span>
+                        <h3>Bangladesh</h3>
+                        <p>SAARC & Non-SAARC Routes Available</p>
+                    </div>
+                    <div class="country-body">
+                        <ul class="country-features">
+                            <li><i class="fas fa-check-circle"></i> Affordable fees with Indian-similar curriculum</li>
+                            <li><i class="fas fa-check-circle"></i> Embassy-based transparent application</li>
+                            <li><i class="fas fa-check-circle"></i> NMC recognized medical colleges</li>
+                            <li><i class="fas fa-check-circle"></i> English medium education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="country-card">
+                    <div class="country-header">
+                        <span class="country-flag">🇺🇿</span>
+                        <h3>Uzbekistan</h3>
+                        <p>Popular & Affordable Choice</p>
+                    </div>
+                    <div class="country-body">
+                        <ul class="country-features">
+                            <li><i class="fas fa-check-circle"></i> Universities: Qarshi, Bukhara, Samarkand</li>
+                            <li><i class="fas fa-check-circle"></i> Strong Indian student community</li>
+                            <li><i class="fas fa-check-circle"></i> MCI/NMC recognized institutions</li>
+                            <li><i class="fas fa-check-circle"></i> Safe cities & structured campus life</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="{% url 'destinations' %}" class="btn btn-primary-custom">
+                <i class="fas fa-globe me-2"></i>View All Destinations
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Complete End-to-End Admission Support</p>
+        
+        <div class="row g-4 mt-4">
+            <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="100">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>Free Counselling</h4>
+                    <p>NEET-based eligibility check & personalized guidance</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h4>University Selection</h4>
+                    <p>Direct seat booking in recognized universities</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h4>English Test Support</h4>
+                    <p>Duolingo/IELTS preparation & registration</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h4>Travel Assistance</h4>
+                    <p>Settlement help & airport pickup services</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="{% url 'services' %}" class="btn btn-primary-custom">
+                <i class="fas fa-arrow-right me-2"></i>Explore All Services
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h2 class="section-title text-start">Ready to Start Your MBBS Journey?</h2>
+                <p class="section-subtitle text-start">Book your free counselling session today and get personalized guidance from our experts.</p>
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>NEET Qualified?</strong> We'll find the best university for you</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>Budget Concerns?</strong> Get ₹1,00,000 scholarship benefit</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>Confused About Countries?</strong> Free expert counselling</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> <strong>Documentation Hassle?</strong> We handle everything</li>
+                </ul>
+                <a href="{% url 'contact' %}" class="btn btn-primary-custom mt-3">
+                    <i class="fas fa-phone me-2"></i>Book Free Counselling Now
+                </a>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="contact-card">
+                    <h4 class="mb-4"><i class="fas fa-phone-alt me-2"></i>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>D-6 Abul Fazal, Jamia Nagar, Okhla, New Delhi</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91-9540440674<br>+91-9891936884</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>studyabroad@thehindguru.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <span>www.thehindguru.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
